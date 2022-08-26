@@ -7,13 +7,13 @@
 *,
 *::before,
 *::after {
-  font-size: inherit;
-  font-family: inherit;
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
-  user-select: none;
-  box-sizing: border-box;
+    font-size: inherit;
+    font-family: inherit;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -64,4 +64,15 @@ body {
     font-size: 1.8em;
     letter-spacing: 0.1em;
     font-weight: 600;
+}
+
+#arrow {
+    position: absolute;
+    top: 40%;
+    right: -15%;
+    width: 5em;
+    height: 5em;
+    border: 2.5em solid;
+    border-color: var(--yangColor) transparent transparent var(--yangColor);
+    transform: rotate(-45deg);
 }
